@@ -1,0 +1,23 @@
+- name: "Hello World"
+  icon: "fa-hand-peace-o"
+  desc: "In 2017 I took my first after-school HTML course, and one year later I printed my first 'hello world' in python!"
+
+- name: "Behind the Apple"
+  icon: "fa-apple"
+  desc: "The same year, I got really into coding, which my school realized and offered me a hands-on Swift course with employees from Apple Mexico."
+
+- name: "Cybersec"
+  icon: "fa-linux"
+  desc: "Cybersecurity began to fascinate me, so I installed Kali Linux onto my computer and began learning the basics of pentesting."
+
+- name: "Hot Cup o' Java"
+  icon: "fa-laptop"
+  desc: "In 2019 and 2020, I took a Processing class and then AP Computer Science A, where I learned Java and got my first computer fundamentals class."
+
+- name: "Bridge to Academics"
+  icon: "fa-pencil"
+  desc: "To apply my knowledge, study for IB classes, and help out my teachers, I began working on a physics simulator for IB Phys HL and I learned GoLang to make math simulations for IB Math AA HL"
+
+- name: "Joining the global community"
+  icon: "fa-github"
+  desc: "With my best friend @Thinkr3, we decided to take the next step and start joining Hackathons. On our first big hackathon, we won third place! Ever since, I wanted to be more engaged with global competitions."

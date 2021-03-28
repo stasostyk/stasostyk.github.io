@@ -1,1 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <title>Stas Ostyk</title>
+
+    <!-- Import style.css from root directory -->
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/timeline.css" />
+
+    <!--Bootsrtap Glyphicons-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- Particles.js div -->
+    <div id="particles-js">
+    </div>
+        <div class="heading">
+            <h1>
+              <strong>Hey!</strong>
+              <div class="slidingVertical">
+                <span>my name is Staś.</span>
+                <span>me llamo Staś.</span>
+                <span>cześć, nazywam się Staś.</span>
+                <span>igama lami nginguStaś.</span>
+                <span> اسمي ستاش </span>
+              </div>
+            </h1>
+        </div>
+        <div class="middle">
+          <div style="margin-left: 50px; width:50%; float:left;">
+            <div class="row">
+                <div class="col-md-12">
+                  <div class="main-timeline">
+                    {% for techevent in site.data.tech %}
+                      <a class="timeline">
+                        <div class="timeline-icon"><i class="fa {{techevent.icon}}"></i></div>
+                        <div class="timeline-content">
+                          <h3 class="title">{{techevent.name}}</h3>
+                          <p class="description" style="color: white">
+                            {{techevent.desc}}
+                          </p>
+                        </div>
+                      </a>
+                    {% endfor %}
+                  </div>
+                </div>
+            </div>
+          </div>
+          <h1 style="margin-left: 100px; margin-top: 150px;font-size: 80px; color: white; float: left" class="fa fa-terminal">
+            My
+            <span style="color: #59AFC0; font-weight:bold; font-style:italic;"> tech </span>
+            path
+          </h1>
+
+          <div style="margin-right: 50px; width:50%; float:right;">
+            <div class="row">
+                <div class="col-md-12">
+                  <div class="main-timeline">
+                    {% for event in site.data.debate %}
+                      <a class="timeline">
+                        <div class="timeline-icon"><i class="fa {{event.icon}}"></i></div>
+                        <div class="timeline-content">
+                          <h3 class="title">{{event.name}}</h3>
+                          <p class="description" style="color: white">
+                            {{event.desc}}
+                          </p>
+                        </div>
+                      </a>
+                    {% endfor %}
+                  </div>
+                </div>
+            </div>
+          </div>
+          <h1 style="margin-left: 200px; margin-top: 250px;font-size: 80px; color: white; float: left" class="fa fa-gavel">
+            My
+            <span style="color: #59AFC0; font-weight:bold; font-style:italic;"> debate </span>
+            life
+           </h1>
+
+        </div>
+
+    <!-- Import Particles.js and app.js files -->
+    <script src=
+        "js/particles.js">
+    </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous">
+    </script>
+
+    <script src=
+        "js/app.js">
+    </script>
+</body>
+
+</html>
