@@ -26,7 +26,7 @@ particlesJS('particles-js',
         "value": "#ffffff"
       },
       "shape": {
-        "type": "",
+        "type": "circle",
         "stroke": {
           "width": 0,
           "color": "#000000"
@@ -82,14 +82,14 @@ particlesJS('particles-js',
       }
     },
     "interactivity": {
-      "detect_on": "canvas",
+      "detect_on": "window",
       "events": {
         "onhover": {
           "enable": true,
-          "mode": "repulse"
+          "mode": "bubble"
         },
         "onclick": {
-          "enable": true,
+          "enable": false,
           "mode": "push"
         },
         "resize": true
@@ -102,10 +102,10 @@ particlesJS('particles-js',
           }
         },
         "bubble": {
-          "distance": 400,
-          "size": 40,
+          "distance": 300,
+          "size": 7,
           "duration": 2,
-          "opacity": 8,
+          "opacity": 1,
           "speed": 3
         },
         "repulse": {
