@@ -20,6 +20,8 @@
     <!-- Particles.js div -->
     <div id="particles-js">
     </div>
+
+
         <div class="heading">
             <h1>
               <strong>Hey!</strong>
@@ -36,18 +38,18 @@
 
         </div>
 
-        <div style="text-align: center; margin-top: 45vh;">
-          <div style="display:inline-block; align: center;">
-            <p style="color:white">Edge detection algorithm using opencv.</p>
-            <img src="assets/transparent.png" alt="Profile Pic" width="46%" height="auto" style="float: flex; border: 2px solid white">
+        <div class="row" style="margin-top: 45vh; overflow: hidden">
+          <div class="col-4 offset-2" style="overflow: hidden; text-align: center;">
+            <p style="color:white"><strong>Edge detection algorithm using opencv.</strong></p>
+            <img src="assets/transparent.png" alt="Profile Pic" width="50%" height="auto" style="border: 0px solid white">
           </div>
-          <div style="display:inline-block;">
-            <h2 style="color:white; font-size: 40px"> Get in touch with me! </h2>
+          <div class="col-3"style="text-align: center;overflow: hidden;">
+            <h2 style="color:white; font-size: 5vh; overflow: hidden"> Get in touch with me! </h2>
             <br>
             <hr style="color: white; height: 10px;">
             <br>
-            <a href="https://www.instagram.com/stas_ostyk/" class="fa fa-instagram" style="color: white; font-size: 10vh"></a>
-            <a href="https://github.com/stasostyk" class="fa fa-github-alt" style="color: white; padding-left: 40px; font-size: 10vh"></a>
+            <a href="https://www.instagram.com/stas_ostyk/" class="fa fa-instagram" style="color: white; font-size: 5vw"></a>
+            <a href="https://github.com/stasostyk" class="fa fa-github-alt" style="color: white; padding-left: 40px; font-size: 5vw"></a>
           </div>
         </div>
 
@@ -56,59 +58,61 @@
           <br>
           <hr style="color: white; height: 10px;">
           <br>
-          <div style="width:100%; overflow: hidden">
-            <h1 style="line-height: normal;overflow: hidden; margin-top: 150px;font-size: 80px; color: white;" class="fa fa-terminal">
-              My
-              <span style="color: #59AFC0; font-weight:bold; font-style:italic;"> tech </span>
-              path
-            </h1>
-            <div style="margin-left: 50px; width:50%; float:left;">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="main-timeline">
-                    {% for techevent in site.data.tech %}
-                    <a class="timeline">
-                      <div class="timeline-icon"><i class="fa {{techevent.icon}}"></i></div>
-                      <div class="timeline-content">
-                        <h3 class="title">{{techevent.name}}</h3>
-                        <p class="description" style="color: white">
-                          {{techevent.desc}}
-                        </p>
-                      </div>
-                    </a>
-                    {% endfor %}
-                  </div>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
+          <h1 style="color:white; text-align:center">A bit about myself...</h1>
           <br>
           <hr style="color: white; height: 10px;">
           <br>
 
-          <div style="width:100%">
-              <h1 style="margin-left: 70px;margin-top: 250px;font-size: 80px; color: white; float: left" class="fa fa-gavel">
-                My
-                <span style="color: #59AFC0; font-weight:bold; font-style:italic;"> debate </span>
-                life
-              </h1>
-              <div style="display:inline-block; width:50%;" class="col-md-12">
-                <div class="main-timeline">
-                  {% for event in site.data.debate %}
-                    <a class="timeline">
-                      <div class="timeline-icon"><i class="fa {{event.icon}}"></i></div>
-                      <div class="timeline-content">
-                        <h3 class="title">{{event.name}}</h3>
-                        <p class="description" style="color: white">
-                          {{event.desc}}
-                        </p>
-                      </div>
-                    </a>
-                  {% endfor %}
-                </div>
+          <div class="container" style="width: 100%">
+            <div class="row justify-content-around">
+              <div class="col-4">
+                <h1 style="line-height: normal;overflow: hidden; margin-top: 150px;font-size: 80px; color: white;" class="fa fa-terminal">
+                  My
+                  <span style="color: #59AFC0; font-weight:bold; font-style:italic;"> tech </span>
+                  path
+                </h1>
               </div>
+              <div class="col-8 main-timeline">
+                      {% for techevent in site.data.tech %}
+                      <a class="timeline">
+                        <div class="timeline-icon"><i class="fa {{techevent.icon}}"></i></div>
+                        <div class="timeline-content">
+                          <h3 class="title">{{techevent.name}}</h3>
+                          <p class="description" style="color: white">
+                            {{techevent.desc}}
+                          </p>
+                        </div>
+                      </a>
+                      {% endfor %}
+              </div>
+            </div>
+
+            <br>
+            <hr style="color: white; height: 10px; opacity: 1">
+            <br>
+
+            <div class="row justify-content-around">
+              <div class="col-4">
+                <h1 style="line-height: normal;overflow: hidden; margin-top: 150px;font-size: 80px; color: white;" class="fa fa-terminal">
+                  My
+                  <span style="color: #59AFC0; font-weight:bold; font-style:italic;"> debate </span>
+                  path
+                </h1>
+              </div>
+              <div class="col-8 main-timeline">
+                      {% for event in site.data.debate %}
+                      <a class="timeline">
+                        <div class="timeline-icon"><i class="fa {{event.icon}}"></i></div>
+                        <div class="timeline-content">
+                          <h3 class="title">{{event.name}}</h3>
+                          <p class="description" style="color: white">
+                            {{event.desc}}
+                          </p>
+                        </div>
+                      </a>
+                      {% endfor %}
+              </div>
+            </div>
           </div>
 
         </div>
