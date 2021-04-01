@@ -65,6 +65,11 @@ body {
 	100% { opacity: 0; }
 }
 
+.conicon {
+  margin: 10px;
+  font-size: 3vw;
+}
+
 .skill-icon {
   font-size: 50px;
   color: white;
