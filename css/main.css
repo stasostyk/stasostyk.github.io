@@ -65,11 +65,15 @@ body {
 	100% { opacity: 0; }
 }
 
+.skill-icon {
+  font-size: 50px;
+  color: white;
+  margin-left: 15px;
+}
 
 .heading {
-    position: absolute;
+    /* position: absolute; */
     text-align: center;
-    top: 10%;
     width: 100%;
 }
 

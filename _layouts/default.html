@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/timeline.css" />
 
-    <!--Bootsrtap Glyphicons-->
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
@@ -20,9 +21,9 @@
     <!-- Particles.js div -->
     <div id="particles-js">
     </div>
-
-
-        <div class="heading">
+      <div class="container-fluid">
+        <div class="row" style="height: 30vh">
+          <div class="heading">
             <h1>
               <strong>Hey!</strong>
               <div class="slidingVertical">
@@ -33,18 +34,16 @@
                 <span> اسمي ستاش </span>
               </div>
             </h1>
-
-
-
+          </div>
         </div>
 
-        <div class="row" style="margin-top: 45vh; overflow: hidden">
-          <div class="col-4 offset-2" style="overflow: hidden; text-align: center;">
-            <p style="color:white"><strong>Edge detection algorithm using opencv.</strong></p>
-            <img src="assets/pfp2.png" alt="Profile Pic" width="50%" height="auto" style="border: 0px solid white">
+        <div class="row justify-content-center" style="height: 70vh">
+          <div class="col-4 my-auto" style="text-align: center;">
+            <p style="color:white; font-size:1vw"><strong>Selfie w/ edge detection algorithm.</strong></p>
+            <img src="assets/pfp2.png" alt="Profile Pic" height="auto" width="auto" style="max-height: 65vh; max-width: 100%;">
           </div>
-          <div class="col-3"style="text-align: center;overflow: hidden;">
-            <h2 style="color:white; font-size: 4vw; overflow: hidden"> Get in touch with me! </h2>
+          <div class="col-3 my-auto"style="text-align: center;overflow: hidden;">
+            <h2 style="color:white; font-size: 3vw; overflow: hidden"> Get in touch with me! </h2>
             <br>
             <hr style="color: white; height: 10px;">
             <br>
@@ -52,27 +51,52 @@
             <a href="https://github.com/stasostyk" class="fa fa-github-alt" style="color: white; padding-left: 40px; font-size: 5vw"></a>
           </div>
         </div>
+      </div>
 
 
         <div class="middle">
           <br>
-          <hr style="color: white; height: 10px;">
-          <br>
-          <h1 style="color:white; text-align:center">A bit about myself...</h1>
-          <br>
-          <hr style="color: white; height: 10px;">
+          <hr style="color: white; height: 10px; opacity:1">
           <br>
 
-          <div class="container" style="width: 100%">
+
+          <div class="container-fluid" style="text-align:center">
+            <div class="row justify-content-center" style="margin-top:70px">
+              <h1 style="color: white; font-size: 4vw;"> My skills </h1>
+            </div>
+            <div class="row justify-content-center" style="height:300px; margin-top:70px">
+              <div>
+                <i class="devicon-python-plain skill-icon"></i>
+                <i class="devicon-atom-original skill-icon"></i>
+                <i class="devicon-css3-plain-wordmark skill-icon"></i>
+                <i class="devicon-django-plain skill-icon"></i>
+                <i class="devicon-flask-original skill-icon"></i>
+                <i class="devicon-flutter-plain skill-icon"></i>
+                <i class="devicon-github-original skill-icon"></i>
+                <i class="devicon-go-plain skill-icon"></i>
+                <i class="devicon-html5-plain skill-icon"></i>
+                <i class="devicon-java-plain skill-icon"></i>
+                <i class="devicon-javascript-plain skill-icon"></i>
+                <i class="devicon-linux-plain skill-icon"></i>
+                <i class="devicon-photoshop-plain skill-icon"></i>
+                <i class="devicon-ssh-original-wordmark skill-icon"></i>
+                <i class="devicon-swift-plain skill-icon"></i>
+                <i class="devicon-ubuntu-plain skill-icon"></i>
+                
+              </div>
+
+            </div>
             <div class="row justify-content-around">
-              <div class="col-4">
+              <div class="col-4 offset-1">
                 <h1 style="line-height: normal;overflow: hidden; margin-top: 150px;font-size: 80px; color: white;" class="fa fa-terminal">
                   My
                   <span style="color: #59AFC0; font-weight:bold; font-style:italic;"> tech </span>
                   path
                 </h1>
+                <img src="assets/monitor.png" alt="Monitor" style="max-height: 55vh; max-width: 33vw;">
+                <h2 style="color:white;"><strong>Pentesting on Linux @ My Room</strong></h2>
               </div>
-              <div class="col-8 main-timeline">
+              <div class="col-7 main-timeline" style="border: 5px">
                       {% for techevent in site.data.tech %}
                       <a class="timeline">
                         <div class="timeline-icon"><i class="fa {{techevent.icon}}"></i></div>
@@ -87,12 +111,13 @@
               </div>
             </div>
 
+
             <br>
             <hr style="color: white; height: 10px; opacity: 1">
             <br>
 
             <div class="row justify-content-around">
-              <div class="col-8 main-timeline">
+              <div class="col-7 main-timeline">
                       {% for event in site.data.debate %}
                       <a class="timeline">
                         <div class="timeline-icon"><i class="fa {{event.icon}}"></i></div>
@@ -111,6 +136,10 @@
                   <span style="color: #59AFC0; font-weight:bold; font-style:italic;"> debate </span>
                   path
                 </h1>
+                <img src="assets/bluebonnet.png" alt="Bluebonnet" style="max-height: 55vh; max-width: 33vw;">
+                <h2 style="color:white;"><strong>Finals at Bluebonnet Invitational @ Houston, TX</strong></h2>
+              </div>
+              <div class="col-1">
               </div>
             </div>
           </div>
