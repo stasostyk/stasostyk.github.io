@@ -1,18 +1,18 @@
 - name: "Hello World"
   icon: "fa-hand-peace-o"
-  desc: "In 2017 I took my first after-school HTML course, and one year later I printed my first 'hello world' in python!"
+  desc: "In 2017 I took my first programming class, and one year later I printed my first 'hello world' in python!"
 
-- name: "Behind the Apple"
+- name: "Trained by Apple"
   icon: "fa-apple"
-  desc: "The same year, I got really into coding, which my school realized and offered me a hands-on Swift course with employees from Apple Mexico."
+  desc: "I got really into coding which my school realized and offered me a hands-on Swift course taught by employees from Apple Mexico."
 
 - name: "Cybersec"
   icon: "fa-linux"
-  desc: "Cybersecurity began to fascinate me, so I installed Kali Linux onto my computer and began learning the basics of pentesting."
+  desc: "Cybersecurity began to fascinate me, so I replaced Windows with Kali Linux and began learning the basics of pentesting."
 
 - name: "Hot Cup o' Java"
   icon: "fa-laptop"
-  desc: "In 2019 and 2020, I took a Processing class and then AP Computer Science A, where I learned Java and got my first computer fundamentals class."
+  desc: "In 2019 and 2020, I took a Processing class and AP Computer Science A, where I learned Java and got my first computer fundamentals lectures."
 
 - name: "Bridge to Academics"
   icon: "fa-pencil"
@@ -20,4 +20,4 @@
 
 - name: "Joining the global community"
   icon: "fa-github"
-  desc: "With my best friend @Thinkr3, we decided to take the next step and start joining Hackathons. On our first big hackathon, we won third place! Ever since, I wanted to be more engaged with global competitions."
+  desc: "With my friend, we began joining Hackathons. On our first big hackathon, we won third place! Ever since, I wanted to be more engaged with global competitions."

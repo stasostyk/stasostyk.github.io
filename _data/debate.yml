@@ -1,19 +1,19 @@
-- name: "Joining the Debate Team"
+- name: "Joining"
   icon: "fa-building"
-  desc: "In 2018, under the amazing coaching of Mr. Richard Kamm, I joined debate... After getting second place on my first tournament, I have been addicted ever since."
+  desc: "In 2018, under the amazing coaching of Richard Kamm, I joined debate. After winning several local tournaments, a single week has not past which I have not spent working on debate."
 
-- name: "Going International"
+- name: "Team Mexico Development Team 2019"
   icon: "fa-plane"
-  desc: "Just a few months later, I was selected for the national development team and went to Houston were on my first international tournament, we won first place overall! Soon after I debated in the Pre-Worlds Champtionship in Prague, and I continue to debate internationally."
+  desc: "Soon after I was selected for the national development team. Here, I won first place at an international tournament in Texas!"
 
-- name: "Representing Mexico"
+- name: "Team Mexico 2020"
   icon: "fa-flag"
-  desc: "In 2019 and early 2020 I had the honor to have been selected as an alternate for Mexico's national representation team, where I helped my team across Croatia, Chennai, Bangkok, and Mexico City."
+  desc: "I had the honor to have been selected as an alternate for Mexico's national team, where my team debated in Chennai and Bangkok."
 
 - name: "Leading My School"
   icon: "fa-group"
-  desc: "In my last years of high school, I being one of the captains of ASF Debate were I co-lead about 40 students and coach them."
+  desc: "In my last years of high school, I became one of the captains of ASF Debate were I co-lead about 40 students and train them."
 
-- name: "Team Mexico"
+- name: "Team Mexico 2021"
   icon: "fa-globe"
-  desc: "In 2021, representing Team Mexico, I participated across several international tournaments, including 9th place at Harvard University Invitational."
+  desc: "With the honor of representing Team Mexico I participated across several international tournaments, including 9th place at Harvard University Invitational."
