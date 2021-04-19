@@ -70,6 +70,12 @@ body {
   font-size: 3vw;
 }
 
+.rcorners2 {
+  border-radius: 25px;
+  border: 2px solid cyan;
+  padding: 20px;
+}
+
 .skill-icon {
   font-size: 50px;
   color: white;
@@ -77,7 +83,7 @@ body {
 }
 
 .proj {
-  font-size: 50px;
+  font-size: 3vw;
   color: white;
 }
 
