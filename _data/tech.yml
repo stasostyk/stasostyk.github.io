@@ -1,23 +1,23 @@
 - name: "Hello World"
   icon: "fa-hand-peace-o"
-  desc: "In 2017 I took my first programming class, and one year later I printed my first 'hello world' in python!"
+  desc: "In 2017, my brother @Ostyk inspired me to learn programming, so I joined my first programming class."
 
 - name: "Trained by Apple"
   icon: "fa-apple"
-  desc: "I got really into coding which my school realized and offered me a hands-on Swift course taught by employees from Apple Mexico."
+  desc: "My school realized how much I loved coding so they offered me a hands-on Swift course taught by employees from Apple Mexico."
 
 - name: "Cybersec"
   icon: "fa-linux"
-  desc: "Cybersecurity began to fascinate me, so I replaced Windows with Kali Linux and began learning the basics of pentesting."
+  desc: "Finding vulnerabilities behind computers fascinated me so much that I installed Kali Linx and began learning pentesting basics."
 
 - name: "Hot Cup o' Java"
   icon: "fa-laptop"
-  desc: "In 2019 and 2020, I took a Processing class and AP Computer Science A, where I learned Java and got my first computer fundamentals lectures."
+  desc: "In 2019 and 2020, I took all computer science classes offered at my school where I learned Java."
 
 - name: "Bridge to Academics"
   icon: "fa-pencil"
-  desc: "To apply my knowledge, study for IB classes, and help out my teachers, I began working on a physics simulator for IB Phys HL and I learned GoLang to make math simulations for IB Math AA HL"
+  desc: "Enrolling into the full IB program I decided to study by programming simulations for IB Physics HL and IB Math AA HL in Java, GoLang, and JS."
 
 - name: "Joining the global community"
   icon: "fa-github"
-  desc: "With my friend, we began joining Hackathons. On our first big hackathon, we won third place! Ever since, I wanted to be more engaged with global competitions."
+  desc: "With @thinkr3 I began joining Hackathons. On our first big hackathon, we won third place!"

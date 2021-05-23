@@ -102,18 +102,12 @@
               <h1 style="color: white; font-size: 4vw; padding-bottom: 20px;"> Some of my projects </h1>
             </div>
             <div class="row justify-content-center" style="padding-bottom: 100px;">
-              <div class="col-4">
-                <div class="list-group">
-                  {% for p in site.data.projects %}
-                  <a
-                  class="proj rcorners2"
-                  href={{p.link}}
-                  >
-                  {{p.name}}
-                </a>
-                {% endfor %}
+              {% for proj in site.data.projects %}
+              <div class="col-2 cbox" style="cursor: pointer;" onclick="window.location='{{proj.link}}';">
+
+                  <h1 style="margin-top:30px">{{proj.name}}</h1>
               </div>
-              </div>
+              {% endfor %}
             </div>
 
             <br>

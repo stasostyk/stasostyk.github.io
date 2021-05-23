@@ -1,2 +1,11 @@
+- name: "Phisics.tech Physics Simulations"
+  link: "https://phisics.tech/"
+
 - name: "Finding Pi with Collisions"
   link: "/beautiful-mathematica/pi/"
+
+- name: "Faraday DataHub (w/ @Thinkr3 & @Ramon)"
+  link: "https://devpost.com/software/faraday"
+
+- name: "GreenBounty Crowdsourcing (Hackathon Winner)"
+  link: "https://devpost.com/software/green-bounty"
