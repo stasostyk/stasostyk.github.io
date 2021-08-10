@@ -1,10 +1,10 @@
 - name: "Joining"
-  icon: "fa-building"
+  icon: "fa-gavel"
   desc: "In 2018, under the amazing coaching of Richard Kamm, I joined debate. After winning several local tournaments, a single week has not past which I have not spent working on debate."
 
 - name: "Team Mexico Development Team 2019"
-  icon: "fa-plane"
-  desc: "Soon after I was selected for the national development team. Here, I won first place at an international tournament in Texas!"
+  icon: "fa-trophy"
+  desc: "Soon after I was selected for the national B team. I won first place at the international Bluebonnet Championship in Houston!"
 
 - name: "Team Mexico 2020"
   icon: "fa-flag"
@@ -12,8 +12,12 @@
 
 - name: "Leading My School"
   icon: "fa-group"
-  desc: "In my last years of high school, I became one of the captains of ASF Debate were I co-lead about 40 students and train them."
+  desc: "I became one of the captains of ASF Debate where I co-coached about 40 students and trained them."
 
 - name: "Team Mexico 2021"
   icon: "fa-globe"
-  desc: "With the honor of representing Team Mexico I participated across several international tournaments, including 9th place at Harvard University Invitational."
+  desc: "I was selected as a main debater for Team Mexico where we competed in Harvard Invitational, Upenn Invitational, and Oxford Ox-Worlds, breaking high in each tournament!."
+
+- name: "Worlds Schools Debate Championship @ Macau, 2021"
+  icon: "fa-star"
+  desc: "Team Mexico broke into elimination rounds on 8th place! This was my first WSDC, and my last week in Mexico before leaving for Qatar. Needless to say, it was amazing."

@@ -1,23 +1,27 @@
 - name: "Hello World"
   icon: "fa-hand-peace-o"
-  desc: "In 2017, my brother @Ostyk inspired me to learn programming, so I joined my first programming class."
+  desc: "In 2017, my brother @Ostyk inspired me to learn programming. I joined my first programming class, then left because it was a boring HTML class..."
 
 - name: "Trained by Apple"
   icon: "fa-apple"
-  desc: "My school realized how much I loved coding so they offered me a hands-on Swift course taught by employees from Apple Mexico."
+  desc: "I was offered a hands-on Swift course taught by employees from Apple Mexico, later presenting my galactic shooter game at my school's conference."
 
 - name: "Cybersec"
   icon: "fa-linux"
-  desc: "Finding vulnerabilities behind computers fascinated me so much that I installed Kali Linx and began learning pentesting basics."
+  desc: "I grew fascinated with cybersecurity. I deleted Windows, installed Kali Linux, and began to learn pentesting."
 
 - name: "Hot Cup o' Java"
   icon: "fa-laptop"
-  desc: "In 2019 and 2020, I took all computer science classes offered at my school where I learned Java."
+  desc: "I took all computer science classes offered at my school and learned Java."
 
 - name: "Bridge to Academics"
   icon: "fa-pencil"
-  desc: "Enrolling into the full IB program I decided to study by programming simulations for IB Physics HL and IB Math AA HL in Java, GoLang, and JS."
+  desc: "I decided to study for IB exams by programming simulations for IB Physics HL and IB Math AA HL in Java, GoLang, and JS."
 
 - name: "Joining the global community"
   icon: "fa-github"
   desc: "With @thinkr3 I began joining Hackathons. On our first big hackathon, we won third place!"
+
+- name: "Making phisics.tech"
+  icon: "fa-science"
+  desc: "While studying for exams by programming simulations, I created an interactive physics website as a side project to help others learn. This is now my biggest project!"
