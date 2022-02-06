@@ -1,6 +1,6 @@
 - name: "Hello World"
   icon: "fa-hand-peace-o"
-  desc: "In 2017, my brother @Ostyk inspired me to learn programming. I joined my first programming class, then left because it was a boring HTML class..."
+  desc: "In 2017, I took my first official programming class, then left because it was a boring HTML class and continued learning on my own with books and online lectures!"
 
 - name: "Trained by Apple"
   icon: "fa-apple"
