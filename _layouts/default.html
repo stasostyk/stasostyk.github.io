@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Stas Ostyk</title>
+    <title>Staś Ostyk</title>
 
     <!-- Import style.css from root directory -->
     <link rel="stylesheet" href="css/main.css" />
@@ -11,7 +11,7 @@
     <!--Icons-->
     <link rel="stylesheet" href="css/flag-icons/css/flag-icon.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
@@ -40,10 +40,10 @@
 
         <div class="row justify-content-center" style="height: 85vh;">
           <div class="col-md-7 col-lg-7 my-auto" style="text-align: center;">
-            <img src="assets/pfp2.png" alt="Profile Pic" height="auto" width="auto" style="max-height: 50vh; max-width: 100%;">
+            <img src="assets/pfp2.png" alt="Profile Pic" height="auto" width="auto" style="max-height: 63vh; max-width: 100%;" class="svg-white">
           </div>
           <div class="col-md-6 col-lg-4 my-auto"style="text-align: center;overflow: hidden;">
-            <h3 style="color:white">I have lived in</h3>
+            <h3 style="color:white"><i>I have lived in...</i></h3>
             <div style="padding-bottom:20px;">
               <span class="flag-icon flag-icon-zaf conicon"></span>
               <span class="flag-icon flag-icon-lbn conicon"></span>
@@ -53,14 +53,24 @@
 
             </div>
             <!-- <h2 style="padding-bottom:15px; color:white; font-size: 3vw; overflow: hidden"> Get in touch with me! </h2> -->
-            <h2 style="padding-bottom:15px; color:white; font-size: 2.8vw; overflow: hidden"> Creator of <a href="https://phisics.tech">phisics.tech</a></h2>
+            <h2 style="padding-bottom:15px; color:white; font-size: 2.8vw; overflow: hidden"> Creator of <strong> <a href="https://phisics.tech" style="color:white">phisics.tech</a></strong></h2>
 
 
             <br>
             <hr style="color: white; height: 10px;">
             <br>
-            <a href="mailto:s.ostyks@gmail.com" class="fa fa-envelope smi" style="color: white; font-size: 3vw"></a>
-            <a href="https://github.com/stasostyk" class="fa fa-github smi" style="color: white; padding-left: 40px; font-size: 3vw"></a>
+            <div class="row justify-content-around">
+              <div class="col">
+                <a href="mailto:s.ostyks@gmail.com" class="fa fa-envelope smi" style="text-decoration:none; color: rgb(255, 102, 102); font-size: 3vw"></a>
+              </div>
+              <div class="col">
+                <a href="https://github.com/stasostyk" class="fa-brands fa-github smi" style="text-decoration:none; color: rgb(158, 102, 255); font-size: 3vw"></a>
+              </div>
+              <div class="col">
+                <a href="https://devpost.com/stasostyk" class="fa-solid fa-trophy smi" style="text-decoration:none; color: rgb(255, 208, 89); font-size: 3vw"></a>
+              </div>
+
+            </div>
           </div>
         </div>
       </div>
@@ -74,7 +84,7 @@
 
           <div class="container-fluid" style="text-align:center">
             <div class="row justify-content-center" style="margin-top:70px">
-              <h1 style="color: white; font-size: 4vw;"> My skills </h1>
+              <h1 style="color: white; font-size: 4vw;"> My <i class="fa-solid fa-code"></i> skills </h1>
             </div>
             <div class="row justify-content-center" style="height:300px; margin-top:70px">
               <div>
@@ -93,23 +103,30 @@
               </div>
 
             </div>
-
             <div class="row justify-content-center">
               <h1 style="color: white; font-size: 4vw; padding-bottom: 20px;"> Some of my projects </h1>
             </div>
-            <div class="row justify-content-center" style="padding-bottom: 100px;">
-              {% for proj in site.data.projects %}
-              <div class="col-2 cbox" style="height: auto; width: auto; cursor: pointer;" onclick="window.location='{{proj.link}}';">
+            <div class="row justify-content-center">
 
-                  <h1 style="margin-top:30px">{{proj.name}}</h1>
+              <div class="col-10">
+
+                <div class="row justify-content-center">
+                  {% for proj in site.data.projects %}
+                  <div class="col-2 box" style="cursor: pointer; color: rgb({{proj.color}})" onclick="window.location='{{proj.link}}';">
+                    <h1 style="font-size: 2vw">{{proj.name}}</h1>
+                    <i style="font-size:50px" class="{{proj.icon}}"></i>
+
+                  </div>
+                  {% endfor %}
+
+                </div>
               </div>
-              {% endfor %}
             </div>
 
             <br>
             <hr style="color: white; height: 10px; opacity: 1">
             <br>
-
+<!--
             <div class="row justify-content-around">
               <div class="col-4 offset-1">
                 <h1 style="line-height: normal;overflow: hidden; margin-top: 150px;font-size: 80px; color: white;" class="fa fa-terminal">
@@ -119,6 +136,9 @@
                 </h1>
                 <img src="assets/monitor.png" alt="Monitor" style="max-height: 55vh; max-width: 33vw;">
                 <h2 style="color:white;"><strong>Pentesting on Linux @ My Room</strong></h2>
+              </div>
+              <div class="col-5 my-auto">
+                <h1 style="color:white">I love programming...</h3>
               </div>
               <div class="col-7 main-timeline" style="border: 5px">
                       {% for techevent in site.data.tech %}
@@ -140,34 +160,19 @@
             <hr style="color: white; height: 10px; opacity: 1">
             <br>
 
-            <div class="row justify-content-center" style="margin-top:70px">
-              <h1 style="color: white; font-size: 4vw;"> I represented Team Mexico Debate across...</h1>
-            </div>
-            <div class="row justify-content-center" style="height:300px; margin-top:70px">
-              <div>
-                <span class="flag-icon flag-icon-usa conicon"></span>
-                <span class="flag-icon flag-icon-can conicon"></span>
-                <span class="flag-icon flag-icon-mex conicon"></span>
-                <span class="flag-icon flag-icon-cze conicon"></span>
-                <span class="flag-icon flag-icon-tha conicon"></span>
-                <span class="flag-icon flag-icon-eng conicon"></span>
-                <span class="flag-icon flag-icon-mac conicon"></span>
-              </div>
-            </div>
 
             <div class="row justify-content-around">
-              <div class="col-7 main-timeline">
-                      {% for event in site.data.debate %}
-                      <a class="timeline">
-                        <div class="timeline-icon"><i class="fa {{event.icon}}"></i></div>
-                        <div class="timeline-content">
-                          <h3 class="title">{{event.name}}</h3>
-                          <p class="description" style="color: white">
-                            {{event.desc}}
-                          </p>
-                        </div>
-                      </a>
-                      {% endfor %}
+              <div class="col-5 my-auto">
+                <h1 style="color:white">I love debating...</h3>
+                  <div>
+                    <span class="flag-icon flag-icon-usa conicon"></span>
+                    <span class="flag-icon flag-icon-can conicon"></span>
+                    <span class="flag-icon flag-icon-mex conicon"></span>
+                    <span class="flag-icon flag-icon-cze conicon"></span>
+                    <span class="flag-icon flag-icon-tha conicon"></span>
+                    <span class="flag-icon flag-icon-eng conicon"></span>
+                    <span class="flag-icon flag-icon-mac conicon"></span>
+                  </div>
               </div>
               <div class="col-4">
                 <h1 style="line-height: normal;overflow: hidden; margin-top: 150px;font-size: 80px; color: white;" class="fa fa-terminal">
@@ -181,6 +186,7 @@
               <div class="col-1">
               </div>
             </div>
+-->
 
           </div>
 
