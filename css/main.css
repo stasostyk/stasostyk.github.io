@@ -1,7 +1,12 @@
 body {
-    margin: 0;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,8,108,1) 0%, rgba(8,8,109,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(10,89,87,1) 0%, rgba(9,77,75,1) 0%, rgba(0,42,98,1) 100%);
+  /* background: rgb(31,98,125);
+background: linear-gradient(90deg, rgba(31,98,125,1) 0%, rgba(0,19,68,1) 100%);  */
+  /* background: rgb(31,98,125);
+ background: linear-gradient(90deg, rgba(31,98,125,1) 0%, rgba(129,0,113,1) 100%);  */
+  /* background: rgb(255,0,82);
+ background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,0,82,1) 100%); */
+  background: rgb(0,228,255);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,228,255,1) 100%);
     font-family: -apple-system, BlinkMacSystemFont,
       'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
       'Open Sans', 'Helvetica Neue', sans-serif;
@@ -108,6 +113,44 @@ body {
     width: 100%;
 }
 
+.svg-white {
+  filter: invert(100%) sepia(0%) saturate(1222%) hue-rotate(351deg) brightness(113%) contrast(106%);
+}
+
+.box {
+  display:inline-block;
+  margin: 10px;
+  border-radius: 60px;
+  background-color: rgba(0,0,0,0.5);
+  border: 5px solid white;
+  color:white;
+  font-size: 1.8em;
+  padding: 10px 20px;
+  margin: 30px;
+}
+
+.box:hover {
+  background-color: rgba(0,0,0,0.3);
+}
+
+.box:hover i {
+  animation: pulsating 2s linear;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes pulsating {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .middle {
   position: absolute;
   top: 100%;
@@ -153,8 +196,8 @@ body {
 }
 
 #particles-js {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,8,108,1) 0%, rgba(8,8,109,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(10,89,87,1) 0%, rgba(9,77,75,1) 0%, rgba(0,42,98,1) 100%);
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,8,108,1) 0%, rgba(8,8,109,1) 0%, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 0%, rgba(10,89,87,1) 0%, rgba(9,77,75,1) 0%, rgba(0,42,98,1) 100%); */
     /* stay in a constant spot on the page, regardless of scroll */
     position: fixed;
     /* fill the entire page */
