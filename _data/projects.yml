@@ -1,11 +1,39 @@
-- name: "Phisics.tech Physics Simulations"
-  link: "https://phisics.tech/"
-
-- name: "Finding Pi with Collisions"
-  link: "/beautiful-mathematica/pi/"
-
-- name: "Faraday DataHub (w/ @Thinkr3 & @Ramon)"
-  link: "https://devpost.com/software/faraday"
-
-- name: "GreenBounty Crowdsourcing (Hackathon Winner)"
+- name: "Trash Bounty Cleanup"
+  icon: "fa-solid fa-seedling"
   link: "https://devpost.com/software/green-bounty"
+  color: "124, 255, 84"
+
+- name: "Physics Simulations"
+  icon: "fa-solid fa-atom"
+  link: "https://phisics.tech/"
+  color: "107, 255, 250"
+
+- name: "Deriving Pi via Momentum"
+  icon: "fa-solid fa-calculator"
+  link: "/beautiful-mathematica/pi/"
+  color: "112, 250, 197"
+
+- name: "Crowd Sourcing DataHub"
+  icon: "fa-solid fa-database"
+  link: "https://devpost.com/software/faraday"
+  color: "241, 112, 250"
+
+- name: "A* Search Algorithm"
+  icon: "fa-solid fa-diagram-project"
+  link: "https://github.com/stasostyk/A-star"
+  color: "255, 71, 90"
+
+- name: "Backdoor via TCP Connection"
+  icon: "fa-solid fa-user-secret"
+  link: "https://github.com/stasostyk/go-inside"
+  color: "163, 133, 255"
+
+- name: "Raspberry Pi Sensor Scripts"
+  icon: "fa-brands fa-raspberry-pi"
+  link: "https://github.com/stasostyk/raspberry-pi"
+  color: "255, 110, 161"
+
+- name: "Maclaurin Series Calculus"
+  icon: "fa-solid fa-infinity"
+  link: "https://github.com/stasostyk/beautiful-mathematica"
+  color: "252, 131, 61"
