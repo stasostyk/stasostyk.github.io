@@ -39,11 +39,11 @@
         </div>
 
         <div class="row justify-content-center" style="height: 85vh;">
-          <div class="col-md-7 col-lg-7 my-auto" style="text-align: center;">
-            <img src="assets/pfp2.png" alt="Profile Pic" height="auto" width="auto" style="max-height: 63vh; max-width: 100%;" class="svg-white">
+          <div class="col-md-6 col-xs-8 my-auto" style="min-width: 30vh;text-align: center;">
+            <img src="assets/pfp2.png" alt="Profile Pic" height="auto" width="auto" style="max-height: 50vh; max-width: 100%;" class="svg-white">
           </div>
-          <div class="col-md-6 col-lg-4 my-auto"style="text-align: center;overflow: hidden;">
-            <h3 style="color:white"><i>I have lived in...</i></h3>
+          <div class="col-md-4 col-xs-8 my-auto"style="min-width: 30vh; text-align: center;overflow: hidden;">
+            <h2>I have lived in...</h2>
             <div style="padding-bottom:20px;">
               <span class="flag-icon flag-icon-zaf conicon"></span>
               <span class="flag-icon flag-icon-lbn conicon"></span>
@@ -53,20 +53,20 @@
 
             </div>
             <!-- <h2 style="padding-bottom:15px; color:white; font-size: 3vw; overflow: hidden"> Get in touch with me! </h2> -->
-            <h2 style="padding-bottom:15px; color:white; font-size: 2.8vw; overflow: hidden"> Creator of <strong> <a href="https://phisics.tech" style="color:white">phisics.tech</a></strong></h2>
+            <h2 style="padding-bottom:15px; font-size: 2.8vw; overflow: hidden"> Creator of <strong> <a href="https://phisics.tech" style="color:white; ">phisics.tech</a></strong></h2>
 
 
             <br>
             <hr style="color: white; height: 10px;">
             <br>
             <div class="row justify-content-around">
-              <div class="col">
+              <div class="col-3 socm">
                 <a href="mailto:s.ostyks@gmail.com" class="fa fa-envelope smi" style="text-decoration:none; color: rgb(255, 102, 102); font-size: 3vw"></a>
               </div>
-              <div class="col">
+              <div class="col-3 socm">
                 <a href="https://github.com/stasostyk" class="fa-brands fa-github smi" style="text-decoration:none; color: rgb(158, 102, 255); font-size: 3vw"></a>
               </div>
-              <div class="col">
+              <div class="col-3 socm">
                 <a href="https://devpost.com/stasostyk" class="fa-solid fa-trophy smi" style="text-decoration:none; color: rgb(255, 208, 89); font-size: 3vw"></a>
               </div>
 
@@ -84,9 +84,9 @@
 
           <div class="container-fluid" style="text-align:center">
             <div class="row justify-content-center" style="margin-top:70px">
-              <h1 style="color: white; font-size: 4vw;"> My <i class="fa-solid fa-code"></i> skills </h1>
+              <h1 style="font-size: 4vw;"> My <i class="fa-solid fa-code"></i> skills </h1>
             </div>
-            <div class="row justify-content-center" style="height:300px; margin-top:70px">
+            <div class="row justify-content-center" style="height:20vh; margin-top:70px">
               <div>
                 <i class="devicon-python-plain skill-icon"></i>
                 <i class="devicon-atom-original skill-icon"></i>
@@ -104,24 +104,19 @@
 
             </div>
             <div class="row justify-content-center">
-              <h1 style="color: white; font-size: 4vw; padding-bottom: 20px;"> Some of my projects </h1>
+              <h1 style="font-size: 4vw; padding-bottom: 20px;"> Some of my projects </h1>
             </div>
-            <div class="row justify-content-center">
-
-              <div class="col-10">
 
                 <div class="row justify-content-center">
                   {% for proj in site.data.projects %}
-                  <div class="col-2 box" style="cursor: pointer; color: rgb({{proj.color}})" onclick="window.location='{{proj.link}}';">
-                    <h1 style="font-size: 2vw">{{proj.name}}</h1>
-                    <i style="font-size:50px" class="{{proj.icon}}"></i>
+                  <div class="col-4 box" style="cursor: pointer; color: rgb({{proj.color}})" onclick="window.location='{{proj.link}}';">
+                    <h1 style="font-size: min(4.3vh, 6vw)">{{proj.name}}</h1>
+                    <i style="font-size:300%" class="{{proj.icon}}"></i>
 
                   </div>
                   {% endfor %}
 
                 </div>
-              </div>
-            </div>
 
             <br>
             <hr style="color: white; height: 10px; opacity: 1">
